@@ -6,17 +6,23 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Advice generator app</title>
 
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
+ <article class="card">
+  <h2 class="card__title">advice  &#x23; <i id="advice-number" class="card__title--accent">117</i></h2>
+  <p class="card__text"><q id="advice">It is easy to sit up and take notice, what's difficult is getting up and taking action.</q></p>
+  <button class="card__btn" id="generator-btn">
+   <img src="images/icon-dice.svg" alt="dice icon" class="card__btn-icon">
+  </button>
+ </article>
   <script src="script.js"></script>
 </body>
 </html>
